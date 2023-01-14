@@ -1,0 +1,135 @@
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background: linear-gradient(to right, #7f53ac, #657ced);
+}
+.container {
+  position: absolute;
+  width: 90%;
+  max-height: 800px;
+  min-width: 580px;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  background-color: transparent;
+  padding: 50px 10px;
+  border-radius: 5px;
+  display: grid;
+  justify-items: center;
+  font-family: "Poppins", sans-serif;
+  border: transparent;
+}
+h3 {
+  font-size: 16px;
+  font-weight: 600;
+}
+input[type="search"] {
+  width: 180px;
+  font-weight: 600;
+  color: #663399;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 30px;
+  border-radius: 5px;
+  border: 2px solid #202020;
+  font-size: 28px;
+}
+button {
+  width: 160px;
+  padding: 15px 0;
+  border-radius: 5px;
+  background-color: #663399;
+  color: #ffffff;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  outline: none;
+}
+p {
+  font-weight: 400;
+}
+
+table {
+  border-collapse: collapse;
+}
+th,
+td {
+  border: 1px solid black;
+}
+
+.mod1 {
+  border: solid;
+  border-color: #a983a9;
+
+  background-color: azure;
+}
+
+li {
+  border: solid;
+  border-color: #a983a9;
+}
+
+nav {
+  background-color: #a983a9;
+  display: block;
+  position: static;
+  width: 100%;
+  height: 80px;
+  top: 0;
+  right: 0;
+  padding: 2px;
+  border: 2px;
+  overflow: hidden;
+}
+
+.listA {
+  text-decoration: none;
+  color: #ffffc2;
+  overflow: hidden;
+  position: relative;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  padding-left: 18px;
+  right: 5%;
+  font-weight: bold;
+  font-size: 2vh;
+  height: 100%;
+  top: 0.8rem;
+}
+
+#almejo {
+  float: left;
+  left: 5%;
+  position: static;
+  color: #ffffc2;
+  font-size: 3vh;
+  font-family: "Sacramento", cursive;
+  top: 0.8rem;
+}
+
+.container {
+  margin-top: 100px;
+}
+
+#contact {
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  left: 40%;
+  right: 30%;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+  top: 8rem;
+}
+
+ul {
+  list-style: none;
+}
